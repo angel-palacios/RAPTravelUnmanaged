@@ -1,0 +1,5 @@
+CLASS ybp_i_rap_travel_u_ap DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF yi_rap_travel_u_ap.
+ENDCLASS.
+
+CLASS ybp_i_rap_travel_u_ap IMPLEMENTATION.
+ENDCLASS.

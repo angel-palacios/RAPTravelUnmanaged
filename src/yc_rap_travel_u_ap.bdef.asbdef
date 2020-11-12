@@ -1,0 +1,20 @@
+projection;
+
+define behavior for YC_RAP_TRAVEL_U_AP alias Travel
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use association _Booking { create; }
+}
+
+define behavior for YC_RAP_BOOKING_U_AP alias Booking
+use etag
+{
+  use update;
+  use delete;
+
+  use association _Travel;
+}
